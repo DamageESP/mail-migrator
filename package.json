@@ -1,0 +1,38 @@
+{
+  "name": "mail-migrator",
+  "version": "1.0.0",
+  "description": "NodeJS tool for migrating email accounts from one server to another",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec babel-node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DamageESP/mail-migrator.git"
+  },
+  "keywords": [
+    "email",
+    "migration",
+    "tool",
+    "node"
+  ],
+  "author": "Víctor Campos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DamageESP/mail-migrator/issues"
+  },
+  "homepage": "https://github.com/DamageESP/mail-migrator#readme",
+  "dependencies": {
+    "emailjs-imap-client": "^3.0.7",
+    "emailjs-mime-parser": "^2.0.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.3",
+    "install": "^0.12.2",
+    "nodemon": "^1.18.11",
+    "npm": "^6.9.0"
+  }
+}
